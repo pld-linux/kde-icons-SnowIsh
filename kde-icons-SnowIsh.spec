@@ -10,8 +10,8 @@ Source0:	http://pumphaus.kilu.de/files/%{_name}-kde-%{version}_build.tar.bz2
 # Source0-md5:	6ca570cb19dce2615aca9843db53b7c0
 URL:		http://www.kde-look.org/content/show.php?content=42905
 BuildRequires:	ImageMagick
+BuildRequires:	ImageMagick-coder-png
 BuildRequires:	rpmbuild(macros) >= 1.123
-BuildRequires:	tar
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
